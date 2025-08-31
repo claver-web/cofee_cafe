@@ -17,7 +17,8 @@ const DetailRestro = () => {
 
     return(
         <>
-        <div className="bg-linear-to-r/hsl from-amber-800 to-black-100 rounded-2xl">
+        <br />
+        <div className="bg-gradient-to-r from-amber-900 to-gray-900 rounded-2xl">
           <br />
           <h1 className="font-bold text-3xl lg:text-4xl text-white-700 text-center">Welcome Coffee Cafe's Founders.</h1>
         
@@ -44,12 +45,12 @@ const DetailRestro = () => {
 
               </div>
 
-              <div class="flex-1 content-start flex-wrap rounded-2xl scroll-auto">
+              <div className="flex-1 content-start flex-wrap rounded-2xl scroll-auto">
 
                 {EmployIntro.map((items, index) => (
 
                 
-                <div class="w-1/1 shadow-lg p-3" id={index}>
+                <div className="w-1/1 shadow-lg p-3" key={index}>
 
                   <div className="lg:flex gap-4">
 

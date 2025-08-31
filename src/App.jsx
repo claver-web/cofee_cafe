@@ -1,25 +1,25 @@
-import Navbar from './components/Navbar';
-import Slideshow from './components/SlidShow';
-import MenuCardCollection from './components/MenuCoffeeCards';
-import MenuContent from './components/MenuContent';
-import DetailRestro from './components/DetailRestro';
-import CafeReviews from './components/Reviews';
-import Footer from './components/FooterContent';
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layouts/Layout";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+import Blog from "./pages/Blog";
+import AboutUs from "./pages/AboutUs";
 
-function App() {
+function App(){
 
   return (
-    <>
-      <Navbar />
-      <Slideshow />
-      <MenuCardCollection />
-      <MenuContent />
-      <DetailRestro />
-      <CafeReviews />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />  {/* default page */}
+          <Route path="Menu" element={<Menu />} />
+          <Route path="Blog" element={<Blog />} />
+          <Route path="AboutUs" element={<AboutUs />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;
+    
