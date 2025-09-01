@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Slideshow = () => {
   return (
@@ -20,9 +21,9 @@ const Slideshow = () => {
           </h2>
 
           {/* Button */}
-          <button className="px-6 py-3 bg-amber-800 text-white font-medium rounded-lg shadow-md hover:bg-amber-900 transition">
+          <Link to='Blog'> <button className="px-6 py-3 bg-amber-800 text-white font-medium rounded-lg shadow-md hover:bg-amber-900 transition">
             Explore
-          </button>
+          </button> </Link>
         </div>
       </div>
     </div>

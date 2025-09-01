@@ -25,6 +25,7 @@ function MenuContent() {
 
         <div className="flex-1">
           <img
+            loading="lazy"
             src="/ContentPhotos/Coffee.jpg"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee"
@@ -36,6 +37,7 @@ function MenuContent() {
       <div className="flex flex-col-reverse lg:flex-row items-center gap-8 mb-16">
         <div className="flex-1">
           <img
+            loading="lazy"
             src="/ContentPhotos/CoffeeCon1.jpg"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee Cup"
@@ -74,6 +76,7 @@ function MenuContent() {
 
         <div className="flex-1">
           <img
+            loading="lazy"
             src="/ContentPhotos/CoffeeCon1.jpg"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee Ingredients"

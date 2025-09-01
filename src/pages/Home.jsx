@@ -1,8 +1,10 @@
+import React, { Suspense, lazy } from 'react';
 import Slideshow from '../components/LandingComponents/SlidShow';
-import MenuCardCollection from '../components/LandingComponents/MenuCoffeeCards';
-import MenuContent from '../components/LandingComponents/MenuContent';
-import DetailRestro from '../components/LandingComponents/DetailRestro';
-import CafeReviews from '../components/LandingComponents/Reviews';
+
+const MenuCardCollection = lazy( () => import ('../components/LandingComponents/MenuCoffeeCards'));
+const MenuContent = lazy(() => import ('../components/LandingComponents/MenuContent'));
+const DetailRestro = lazy(() => import ('../components/LandingComponents/DetailRestro'));
+const CafeReviews = lazy(() => import ('../components/LandingComponents/Reviews'));
 
 
 function Home(){
@@ -11,9 +13,12 @@ function Home(){
         <>
             <Slideshow />
             <MenuCardCollection />
-            <MenuContent />
-            <DetailRestro />
-            <CafeReviews />
+            <Suspense fallback={<div className='text-center text-lg text-cyan-600'>Loading...</div>}>
+                <MenuContent />
+                <DetailRestro />
+                <CafeReviews />
+            </Suspense>
+            
         </>
     )
 }

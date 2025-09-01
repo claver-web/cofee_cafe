@@ -62,6 +62,7 @@ const CafeReviews = () => {
             {/* User Image */}
             <img
               src={items.img}
+              loading="lazy"
               className="rounded-full w-24 h-24 lg:w-32 lg:h-32 object-cover shadow-md border-4 border-amber-700 mb-6"
               alt={`Photo of ${items.name}`}
             />

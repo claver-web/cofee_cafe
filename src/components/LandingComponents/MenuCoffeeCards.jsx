@@ -36,6 +36,8 @@ export default function MenuCardCollection() {
             <img
               src={item.image}
               alt={item.title}
+              loading="lazy"
+              
               className="w-full h-40 object-cover rounded-t-2xl"
             />
             <div className="p-4 text-center">

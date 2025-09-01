@@ -25,7 +25,7 @@ const DetailRestro = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 p-7">
               <div className="flex-1 max-w-sm overflow-hidden shadow-lg">
 
-                <img className="rounded-full shadow-2xl" src="/owner/CEO.jpeg" alt="CEO of Coffee Cafe" />
+                <img className="rounded-full shadow-2xl" loading="lazy" src="/owner/CEO.jpeg" alt="CEO of Coffee Cafe" />
                 <br />
 
                 <div className="font-bold text-3xl  text-center">CEO Of Coffee Cafe</div>
@@ -55,7 +55,7 @@ const DetailRestro = () => {
                   <div className="lg:flex gap-4">
 
                     <div className="">
-                      <img src={items.img} className="rounded-2xl" alt="" />
+                      <img src={items.img} loading="lazy" className="rounded-2xl" alt="" />
                     </div>
 
                     <div className="text-center p-2">
