@@ -26,7 +26,7 @@ function MenuContent() {
         <div className="flex-1">
           <img
             loading="lazy"
-            src="/ContentPhotos/Coffee.jpg"
+            src="/ContentPhotos/Coffee.webp"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee"
           />
@@ -38,7 +38,7 @@ function MenuContent() {
         <div className="flex-1">
           <img
             loading="lazy"
-            src="/ContentPhotos/CoffeeCon1.jpg"
+            src="/ContentPhotos/CoffeeCon1.webp"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee Cup"
           />
@@ -77,7 +77,7 @@ function MenuContent() {
         <div className="flex-1">
           <img
             loading="lazy"
-            src="/ContentPhotos/CoffeeCon1.jpg"
+            src="/ContentPhotos/CoffeeCon1.webp"
             className="rounded-3xl w-full object-cover shadow-lg"
             alt="Coffee Ingredients"
           />

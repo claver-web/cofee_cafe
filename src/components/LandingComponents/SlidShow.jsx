@@ -6,7 +6,7 @@ const Slideshow = () => {
     <div className="relative w-full">
       {/* Background Image */}
       <img
-        src="/slidshow/slide1.jpeg"
+        src="/slidshow/slide1.webp"
         className="w-full h-[400px] sm:h-[400px] md:h-[500px] lg:h-[550px] object-cover"
         alt="Coffee Shop"
       />

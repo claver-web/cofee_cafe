@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
 const menuItems = [
-  { title: "Espresso", image: "/menuPhotos/coffee/coffe1.jpeg" },
-  { title: "Iced Coffee", image: "/menuPhotos/coffee/coffe2.jpeg" },
-  { title: "Macchiato", image: "/menuPhotos/coffee/coffe3.jpeg" },
-  { title: "Cream Coffee", image: "/menuPhotos/coffee/coffe4.jpeg" },
-  { title: "Chocolate Coffee", image: "/menuPhotos/coffee/coffe5.jpeg" },
-  { title: "Blend Coffee", image: "/menuPhotos/coffee/coffe6.jpeg" },
-  { title: "Decaf Coffee", image: "/menuPhotos/coffee/coffe7.jpeg" },
-  { title: "Latte", image: "/menuPhotos/coffee/coffe8.jpeg" },
+  { title: "Espresso", image: "/menuPhotos/coffee/coffe1.webp" },
+  { title: "Iced Coffee", image: "/menuPhotos/coffee/coffe2.webp" },
+  { title: "Macchiato", image: "/menuPhotos/coffee/coffe3.webp" },
+  { title: "Cream Coffee", image: "/menuPhotos/coffee/coffe4.webp" },
+  { title: "Chocolate Coffee", image: "/menuPhotos/coffee/coffe5.webp" },
+  { title: "Blend Coffee", image: "/menuPhotos/coffee/coffe6.webp" },
+  { title: "Decaf Coffee", image: "/menuPhotos/coffee/coffe7.webp" },
+  { title: "Latte", image: "/menuPhotos/coffee/coffe8.webp" },
 ];
 
 export default function MenuCardCollection() {

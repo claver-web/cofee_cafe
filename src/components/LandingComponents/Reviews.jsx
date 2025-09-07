@@ -4,32 +4,32 @@ import { Carousel } from "react-responsive-carousel";
 const reviews = [
   {
     name: "Aarav Sharma",
-    img: "/reviewsPeople/r1.jpeg",
+    img: "/reviewsPeople/r1.webp",
     review: `My experience with this service was truly exceptional. The attention to detail and dedication to customer satisfaction stood out to me the most. Aarav, the representative I interacted with, went above and beyond to ensure that all my queries were addressed, and I felt valued throughout the process.`,
   },
   {
     name: "Ishita Verma",
-    img: "/reviewsPeople/r2.jpeg",
+    img: "/reviewsPeople/r2.webp",
     review: `I had a wonderful experience using this service, and I must say it completely exceeded my expectations. The team was extremely supportive and attentive to every little detail, ensuring that my requirements were not only met but surpassed.`,
   },
   {
     name: "Vihaan Mehta",
-    img: "/reviewsPeople/r3.jpeg",
+    img: "/reviewsPeople/r3.webp",
     review: `Working with this company was one of the best decisions I’ve made recently. The entire process was smooth and efficient, with every team member going out of their way to make sure I was satisfied.`,
   },
   {
     name: "Riya Kapoor",
-    img: "/reviewsPeople/r4.jpeg",
+    img: "/reviewsPeople/r4.webp",
     review: `I am so happy with the service I received from this company. From the beginning, Riya and her team were friendly, approachable, and focused on understanding exactly what I needed.`,
   },
   {
     name: "Arjun Reddy",
-    img: "/reviewsPeople/r7.jpeg",
+    img: "/reviewsPeople/r7.webp",
     review: `This company exceeded my expectations in every possible way. Arjun and his team demonstrated an impressive level of professionalism, dedication, and care.`,
   },
   {
     name: "Priya Desai",
-    img: "/reviewsPeople/r8.jpeg",
+    img: "/reviewsPeople/r8.webp",
     review: `I had an amazing experience working with this company. Priya from their team made me feel welcome and guided me through every step of the process with incredible patience and kindness.`,
   },
 ];

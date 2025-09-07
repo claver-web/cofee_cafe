@@ -3,12 +3,12 @@ const EmployIntro = [
   {
     name: "Kartik Mehra",
     paragraph: "Welcome to Coffee Cafe. We are a passionate team of professionals dedicated to providing you with the best service and experience. Our employees are here to ensure that every interaction is meaningful and every product or service you receive exceeds expectations.",
-    img: "/owner/MaleEmploy.jpeg"
+    img: "/owner/MaleEmploy.webp"
   },
   {
     name: "Gulabo Ji",
     paragraph: "Welcome to Coffee Cafe. We are a passionate team of professionals dedicated to providing you with the best service and experience. Our employees are here to ensure that every interaction is meaningful and every product or service you receive exceeds expectations.",
-    img: "/owner/femaleEmploy.jpeg"
+    img: "/owner/femaleEmploy.webp"
   }
 ]
 
